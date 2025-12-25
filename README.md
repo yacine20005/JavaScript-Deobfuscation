@@ -32,7 +32,7 @@ I initially used **webcrack** to perform an AST-based transformation. This step 
 The extension used a complex function to decrypt its internal dictionary. Instead of manual translation, I developed a **sandbox extraction script** (`extract_strings.js`).
 
 * **Method**: I extracted the bitwise decryption logic and the raw numeric data.
-* **Execution**: By running this logic in a controlled Node.js environment, I generated a mapping of over 1,700 unique strings used by the malware.
+* **Execution**: By running this logic in a controlled Node.js environment, I generated a mapping of over 1,700 unique strings.
 
 ### Step 3: Neutralizing Anti-Tamper Traps
 
